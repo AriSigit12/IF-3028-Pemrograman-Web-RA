@@ -1,0 +1,90 @@
+/* Latar belakang untuk keseluruhan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background: url('timnas.jpg') no-repeat center center fixed; /* Gambar latar belakang */
+    background-size: cover; /* Gambar menutupi seluruh area */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Menambahkan latar belakang warna transparan pada form dan container agar terlihat */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Background putih dengan sedikit transparansi */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* CSS untuk bagian header */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* CSS untuk form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    font-style: italic;
+    color: #999;
+}
+
+button {
+    background-color: #D32F2F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #C62828;
+}
+
+/* CSS untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #D32F2F;
+    color: white;
+}
